@@ -17,7 +17,7 @@ formatter.feature({
   ]
 });
 formatter.before({
-  "duration": 6742880000,
+  "duration": 7489287300,
   "status": "passed"
 });
 formatter.scenario({
@@ -137,38 +137,39 @@ formatter.match({
   "location": "Addjobs_steps.user_enters_the_platform()"
 });
 formatter.result({
-  "duration": 2500260000,
+  "duration": 2432099400,
   "status": "passed"
 });
 formatter.match({
   "location": "Addjobs_steps.user_selects_add_job()"
 });
 formatter.result({
-  "duration": 87300,
+  "duration": 8115197800,
   "status": "passed"
 });
 formatter.match({
   "location": "Addjobs_steps.user_completes_all_fields()"
 });
 formatter.result({
-  "duration": 874232700,
-  "error_message": "org.openqa.selenium.ElementNotInteractableException: element not interactable\n  (Session info: chrome\u003d86.0.4240.111)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-6APU30H\u0027, ip: \u0027192.168.1.188\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_202\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\\Users\\USER\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:60115}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: ab31c27608ca36c98747705731ddaeaf\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)\r\n\tat steps.Addjobs_steps.user_completes_all_fields(Addjobs_steps.java:73)\r\n\tat ✽.And user completes all fields(F:/Add_Job/AddJob/src/test/java/AddJob/add_Job.feature:25)\r\n",
-  "status": "failed"
+  "duration": 23710146600,
+  "status": "passed"
 });
 formatter.match({
   "location": "Addjobs_steps.user_clicks_post()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 2050014400,
+  "status": "passed"
 });
 formatter.match({
   "location": "Addjobs_steps.user_should_receive_a_notification_of_success()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 2029391200,
+  "status": "passed"
 });
 formatter.after({
-  "duration": 674961900,
+  "duration": 626668300,
   "status": "passed"
 });
 });
