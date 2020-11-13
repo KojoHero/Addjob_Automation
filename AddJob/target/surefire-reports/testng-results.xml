@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="IncidentDashboardSuite" duration-ms="62943" started-at="2020-11-13T10:08:51Z" finished-at="2020-11-13T10:09:54Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.AddJob_Runner@6d8a00e3]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Incident Dashboard Templae" duration-ms="62943" started-at="2020-11-13T10:08:51Z" finished-at="2020-11-13T10:09:54Z">
+      <class name="runner.AddJob_Runner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:runner.AddJob_Runner@6d8a00e3]" name="setUpClass" is-config="true" duration-ms="238" started-at="2020-11-13T10:08:51Z" finished-at="2020-11-13T10:08:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.AddJob_Runner@6d8a00e3]" name="feature" duration-ms="61992" started-at="2020-11-13T10:08:51Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-11-13T10:09:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Job portal]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runner.AddJob_Runner@6d8a00e3]" name="tearDownClass" is-config="true" duration-ms="582" started-at="2020-11-13T10:09:53Z" finished-at="2020-11-13T10:09:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runner.AddJob_Runner -->
+    </test> <!-- Incident Dashboard Templae -->
+  </suite> <!-- IncidentDashboardSuite -->
+</testng-results>

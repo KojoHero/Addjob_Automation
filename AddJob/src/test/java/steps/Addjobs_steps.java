@@ -1,6 +1,5 @@
 package steps;
 
-import java.util.List;
 import java.util.concurrent.TimeUnit;
 import org.junit.Assert;
 import org.openqa.selenium.By;
@@ -56,39 +55,30 @@ public class Addjobs_steps {
 
 		// add job title
 		Thread.sleep(3000);
-		driver.findElement(By.id("job_title_txt")).sendKeys("Test");
+		driver.findElement(By.id("job_title_txt")).sendKeys("Software Developer");
 
 		// job location
-//		Thread.sleep(2000);
-		driver.findElement(By.id("job_location_txt")).sendKeys("Test");
+		Thread.sleep(2000);
+		Select location = new Select(driver.findElement(By.xpath("//*[@id=\"__next\"]/div/div/div[2]/div[3]/div[2]/div[1]/select")));
+		location.selectByVisibleText("Apowa");
+		
 
 		// salary from
 //		Thread.sleep(2000);
-		driver.findElement(By.id("job_salary1_txt")).sendKeys("200");
+		driver.findElement(By.id("job_salary1_txt")).sendKeys("4,000");
 
 		// salary to
-//		Thread.sleep(2000);
-		driver.findElement(By.id("job_salary2_txt")).sendKeys("300");
+		driver.findElement(By.id("job_salary2_txt")).sendKeys("4,500");
 
 		// description
-		Thread.sleep(5000);
-		driver.findElement(By.xpath("//*[@id=\"job_description_txt\"]/textarea")).sendKeys("Test: tetsing description");
+		Thread.sleep(2000);
+		driver.findElement(By.xpath("//*[@id=\"job_description_txt\"]/textarea")).sendKeys("software test engineer needed on a full time basis");
 
 		// Fill date as mm/dd/yyyy as 09/25/2013
 		Thread.sleep(3000);
 		WebElement dateBox = driver.findElement(By.id("job_exdate_txt"));
-		Thread.sleep(5000);
-		dateBox.sendKeys("11252020");
-//		 Thread.sleep(10000);
-//		 WebElement dateWidget = driver.findElement(By.id("job_exdate_txt"));
-//		 List<WebElement> columns=dateWidget.findElements(By.tagName("td"));
-//		 for (WebElement cell: columns){
-//		    //Select 13th Date 
-//		    if (cell.getText().equals("13")){
-//		       cell.findElement(By.linkText("13")).click();
-//		       break;
-//		  }
-//		 }
+		Thread.sleep(2000);
+		dateBox.sendKeys("12102020");
 
 		// select type
 		Thread.sleep(2000);
@@ -96,9 +86,9 @@ public class Addjobs_steps {
 		type.selectByVisibleText("Full-Time");
 
 		// select category
-		Thread.sleep(5000);
+		Thread.sleep(2000);
 		Select category = new Select(driver.findElement(By.xpath("/html/body/div/div/div/div[2]/div[3]/div[1]/div[4]/select")));
-		category.selectByVisibleText("Engineering");
+		category.selectByVisibleText("engineering");
 	}
 
 	@When("^user clicks post$")
@@ -112,6 +102,8 @@ public class Addjobs_steps {
 	public void user_should_receive_a_notification_of_success() throws Throwable {
 		Thread.sleep(2000);
 		String message = driver.findElement(By.xpath("//*[@id=\"myModal\"]/div[2]/div[1]/p")).getText();
-		Assert.assertEquals("Successful", message);
+		Assert.assertEquals("Job posted successfully", message);
 	}
+	
+	
 }

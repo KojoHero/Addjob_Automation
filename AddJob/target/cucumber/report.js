@@ -17,7 +17,7 @@ formatter.feature({
   ]
 });
 formatter.before({
-  "duration": 7489287300,
+  "duration": 21350821800,
   "status": "passed"
 });
 formatter.scenario({
@@ -137,39 +137,39 @@ formatter.match({
   "location": "Addjobs_steps.user_enters_the_platform()"
 });
 formatter.result({
-  "duration": 2432099400,
+  "duration": 7368443700,
   "status": "passed"
 });
 formatter.match({
   "location": "Addjobs_steps.user_selects_add_job()"
 });
 formatter.result({
-  "duration": 8115197800,
+  "duration": 8093930700,
   "status": "passed"
 });
 formatter.match({
   "location": "Addjobs_steps.user_completes_all_fields()"
 });
 formatter.result({
-  "duration": 23710146600,
+  "duration": 17927140300,
   "status": "passed"
 });
 formatter.match({
   "location": "Addjobs_steps.user_clicks_post()"
 });
 formatter.result({
-  "duration": 2050014400,
+  "duration": 2045507500,
   "status": "passed"
 });
 formatter.match({
   "location": "Addjobs_steps.user_should_receive_a_notification_of_success()"
 });
 formatter.result({
-  "duration": 2029391200,
+  "duration": 2093056900,
   "status": "passed"
 });
 formatter.after({
-  "duration": 626668300,
+  "duration": 895739500,
   "status": "passed"
 });
 });
