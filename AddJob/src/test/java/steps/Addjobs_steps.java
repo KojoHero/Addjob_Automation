@@ -60,7 +60,7 @@ public class Addjobs_steps {
 		// job location
 		Thread.sleep(2000);
 		Select location = new Select(driver.findElement(By.xpath("//*[@id=\"__next\"]/div/div/div[2]/div[3]/div[2]/div[1]/select")));
-		location.selectByVisibleText("Lagos Twn");
+		location.selectByVisibleText("Lagos Town");
 		
 
 		// salary from
