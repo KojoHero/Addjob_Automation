@@ -17,7 +17,7 @@ formatter.feature({
   ]
 });
 formatter.before({
-  "duration": 21350821800,
+  "duration": 5887129000,
   "status": "passed"
 });
 formatter.scenario({
@@ -137,39 +137,34 @@ formatter.match({
   "location": "Addjobs_steps.user_enters_the_platform()"
 });
 formatter.result({
-  "duration": 7368443700,
+  "duration": 12055709600,
   "status": "passed"
 });
 formatter.match({
   "location": "Addjobs_steps.user_selects_add_job()"
 });
 formatter.result({
-  "duration": 8093930700,
+  "duration": 8121437500,
   "status": "passed"
 });
 formatter.match({
   "location": "Addjobs_steps.user_completes_all_fields()"
 });
 formatter.result({
-  "duration": 17927140300,
-  "status": "passed"
+  "duration": 5232180700,
+  "error_message": "org.openqa.selenium.NoSuchElementException: Cannot locate element with text: Lagos Twn\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-6APU30H\u0027, ip: \u0027192.168.3.51\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_202\u0027\nDriver info: driver.version: unknown\r\n\tat org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:147)\r\n\tat steps.Addjobs_steps.user_completes_all_fields(Addjobs_steps.java:63)\r\n\tat ✽.And user completes all fields(F:/Add_Job/AddJob/src/test/java/AddJob/add_Job.feature:25)\r\n",
+  "status": "failed"
 });
 formatter.match({
   "location": "Addjobs_steps.user_clicks_post()"
 });
 formatter.result({
-  "duration": 2045507500,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "Addjobs_steps.user_should_receive_a_notification_of_success()"
 });
 formatter.result({
-  "duration": 2093056900,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 895739500,
-  "status": "passed"
+  "status": "skipped"
 });
 });

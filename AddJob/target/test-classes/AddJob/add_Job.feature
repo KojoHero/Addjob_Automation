@@ -20,7 +20,7 @@ Feature: Job portal
 	#4. User click on the Save button and it is recorded in the database
 	@TEST_COMMUNITY-744 @REQ_COMMUNITY-21 @TESTSET_COMMUNITY-708
 	Scenario: Verify that an organisation user can add a job
-		When user enters the platform 
+			When user enters the platform 
 			And user selects add job
 			And user completes all fields
 			When user clicks post
