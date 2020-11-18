@@ -17,7 +17,7 @@ formatter.feature({
   ]
 });
 formatter.before({
-  "duration": 5887129000,
+  "duration": 12449844300,
   "status": "passed"
 });
 formatter.scenario({
@@ -137,34 +137,35 @@ formatter.match({
   "location": "Addjobs_steps.user_enters_the_platform()"
 });
 formatter.result({
-  "duration": 12055709600,
+  "duration": 26335111500,
   "status": "passed"
 });
 formatter.match({
   "location": "Addjobs_steps.user_selects_add_job()"
 });
 formatter.result({
-  "duration": 8121437500,
+  "duration": 8097835100,
   "status": "passed"
 });
 formatter.match({
   "location": "Addjobs_steps.user_completes_all_fields()"
 });
 formatter.result({
-  "duration": 5232180700,
-  "error_message": "org.openqa.selenium.NoSuchElementException: Cannot locate element with text: Lagos Twn\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-6APU30H\u0027, ip: \u0027192.168.3.51\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_202\u0027\nDriver info: driver.version: unknown\r\n\tat org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:147)\r\n\tat steps.Addjobs_steps.user_completes_all_fields(Addjobs_steps.java:63)\r\n\tat ✽.And user completes all fields(F:/Add_Job/AddJob/src/test/java/AddJob/add_Job.feature:25)\r\n",
-  "status": "failed"
+  "duration": 16868102600,
+  "status": "passed"
 });
 formatter.match({
   "location": "Addjobs_steps.user_clicks_post()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 2042545900,
+  "status": "passed"
 });
 formatter.match({
   "location": "Addjobs_steps.user_should_receive_a_notification_of_success()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 2036291500,
+  "status": "passed"
 });
 });

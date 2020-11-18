@@ -1,0 +1,183 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "comments": [
+          {
+            "line": 5,
+            "value": "#Tests As a business, I should be able to post a job to the job portal"
+          },
+          {
+            "line": 6,
+            "value": "#"
+          },
+          {
+            "line": 7,
+            "value": "#Acceptance Criteria"
+          },
+          {
+            "line": 8,
+            "value": "#"
+          },
+          {
+            "line": 9,
+            "value": "## A business which wants to post a job must have a registered/approved account"
+          },
+          {
+            "line": 10,
+            "value": "## User must be logged-in"
+          },
+          {
+            "line": 11,
+            "value": "## User clicks on the Add a Job button from Job Portal on the navigation panel and one-page loads with the following fields"
+          },
+          {
+            "line": 12,
+            "value": "### Job Category (industry)"
+          },
+          {
+            "line": 13,
+            "value": "### Job Type (Full/part-time, contract, daily job, etc)"
+          },
+          {
+            "line": 14,
+            "value": "### Job Location"
+          },
+          {
+            "line": 15,
+            "value": "### Job Title"
+          },
+          {
+            "line": 16,
+            "value": "### Job description (Responsibilities \u0026 Requirements)"
+          },
+          {
+            "line": 17,
+            "value": "### Salary range (two fields: From, To)"
+          },
+          {
+            "line": 18,
+            "value": "### Job Ad Expiry Date"
+          },
+          {
+            "line": 19,
+            "value": "#"
+          },
+          {
+            "line": 20,
+            "value": "#4. User click on the Save button and it is recorded in the database"
+          }
+        ],
+        "before": [
+          {
+            "result": {
+              "duration": 12449844300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Addjobs_steps.setup()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "Verify that an organisation user can add a job",
+        "description": "",
+        "id": "job-portal;verify-that-an-organisation-user-can-add-a-job",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 26335111500,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "user enters the platform",
+            "match": {
+              "location": "Addjobs_steps.user_enters_the_platform()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8097835100,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "user selects add job",
+            "match": {
+              "location": "Addjobs_steps.user_selects_add_job()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 16868102600,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "user completes all fields",
+            "match": {
+              "location": "Addjobs_steps.user_completes_all_fields()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2042545900,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "user clicks post",
+            "match": {
+              "location": "Addjobs_steps.user_clicks_post()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2036291500,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "user should receive a notification of success",
+            "match": {
+              "location": "Addjobs_steps.user_should_receive_a_notification_of_success()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 21,
+            "name": "@TEST_COMMUNITY-744"
+          },
+          {
+            "line": 21,
+            "name": "@REQ_COMMUNITY-21"
+          },
+          {
+            "line": 21,
+            "name": "@TESTSET_COMMUNITY-708"
+          }
+        ]
+      }
+    ],
+    "name": "Job portal",
+    "description": "",
+    "id": "job-portal",
+    "keyword": "Feature",
+    "uri": "F:/Add_Job/AddJob/src/test/java/AddJob/add_Job.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@COMMUNITY-713"
+      },
+      {
+        "line": 2,
+        "name": "@REQ_COMMUNITY-6"
+      }
+    ]
+  }
+]
