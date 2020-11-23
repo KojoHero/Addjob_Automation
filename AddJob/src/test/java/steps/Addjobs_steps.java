@@ -24,12 +24,12 @@ public class Addjobs_steps {
 		this.driver.manage().timeouts().pageLoadTimeout(120, TimeUnit.SECONDS);
 
 	}
-//
-//	@After()
-//	public void end() {
-//		driver.manage().deleteAllCookies();
-//		driver.quit();
-//	}
+
+	@After()
+	public void end() {
+		driver.manage().deleteAllCookies();
+		driver.quit();
+	}
 
 	@When("^user enters the platform$")
 	public void user_enters_the_platform() throws Throwable {
@@ -55,20 +55,20 @@ public class Addjobs_steps {
 
 		// add job title
 		Thread.sleep(3000);
-		driver.findElement(By.id("job_title_txt")).sendKeys("IT Specialist");
+		driver.findElement(By.id("job_title_txt")).sendKeys("Trotro mate");
 
 		// job location
 		Thread.sleep(2000);
 		Select location = new Select(driver.findElement(By.xpath("//*[@id=\"__next\"]/div/div/div[2]/div[3]/div[2]/div[1]/select")));
-		location.selectByVisibleText("Lagos Town");
+		location.selectByVisibleText("Anaji");
 		
 
 		// salary from
 //		Thread.sleep(2000);
-		driver.findElement(By.id("job_salary1_txt")).sendKeys("4,000");
+		driver.findElement(By.id("job_salary1_txt")).sendKeys("1,000");
 
 		// salary to
-		driver.findElement(By.id("job_salary2_txt")).sendKeys("4,500");
+		driver.findElement(By.id("job_salary2_txt")).sendKeys("1,500");
 
 		// description
 		Thread.sleep(2000);
