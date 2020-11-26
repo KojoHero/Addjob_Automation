@@ -13,7 +13,7 @@ import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 
 public class Addjobs_steps {
-	WebDriver driver;
+	WebDriver driver = new ChromeDriver();
 
 	@Before()
 	public void setup() {
@@ -52,7 +52,7 @@ public class Addjobs_steps {
 
 	@When("^user completes all fields$")
 	public void user_completes_all_fields() throws Throwable {
-
+		
 		// add job title
 		Thread.sleep(3000);
 		driver.findElement(By.id("job_title_txt")).sendKeys("Trotro mate");
@@ -60,7 +60,7 @@ public class Addjobs_steps {
 		// job location
 		Thread.sleep(2000);
 		Select location = new Select(driver.findElement(By.xpath("//*[@id=\"__next\"]/div/div/div[2]/div[3]/div[2]/div[1]/select")));
-		location.selectByVisibleText("Anaji");
+		location.selectByVisibleText("Anajia");
 		
 
 		// salary from

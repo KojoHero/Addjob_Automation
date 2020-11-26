@@ -72,7 +72,7 @@
         "before": [
           {
             "result": {
-              "duration": 12449844300,
+              "duration": 14191369800,
               "status": "passed"
             },
             "match": {
@@ -84,12 +84,23 @@
         "name": "Verify that an organisation user can add a job",
         "description": "",
         "id": "job-portal;verify-that-an-organisation-user-can-add-a-job",
+        "after": [
+          {
+            "result": {
+              "duration": 719172500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Addjobs_steps.end()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 26335111500,
+              "duration": 46430444300,
               "status": "passed"
             },
             "line": 23,
@@ -101,7 +112,7 @@
           },
           {
             "result": {
-              "duration": 8097835100,
+              "duration": 8115650500,
               "status": "passed"
             },
             "line": 24,
@@ -113,7 +124,7 @@
           },
           {
             "result": {
-              "duration": 16868102600,
+              "duration": 16836806800,
               "status": "passed"
             },
             "line": 25,
@@ -125,7 +136,7 @@
           },
           {
             "result": {
-              "duration": 2042545900,
+              "duration": 2046400500,
               "status": "passed"
             },
             "line": 26,
@@ -137,7 +148,7 @@
           },
           {
             "result": {
-              "duration": 2036291500,
+              "duration": 2024720400,
               "status": "passed"
             },
             "line": 27,
