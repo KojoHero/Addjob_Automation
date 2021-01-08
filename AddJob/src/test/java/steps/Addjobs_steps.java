@@ -65,10 +65,10 @@ public class Addjobs_steps {
 
 		// salary from
 //		Thread.sleep(2000);
-		driver.findElement(By.id("")).sendKeys("1,000");
+		driver.findElement(By.id("job_salary1_txt")).sendKeys("1,000");
 
 		// salary to
-		driver.findElement(By.id("")).sendKeys("1,500");
+		driver.findElement(By.id("job_salary2_txt")).sendKeys("1,500");
 
 		// description
 		Thread.sleep(2000);
